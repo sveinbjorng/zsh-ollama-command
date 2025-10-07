@@ -6,7 +6,7 @@ suggestions based on user input requirements.
 
 ## Features
 
-* **Intelligent Command Suggestions**: Use OLLAMA to generate relevant MacOS
+* **Intelligent Command Suggestions**: Use OLLAMA to generate relevant
   terminal commands based on your query or input requirement.
 * **FZF Integration**: Interactively select suggested commands using FZF's fuzzy
   finder, ensuring you find the right command for your task.
@@ -28,6 +28,7 @@ suggestions based on user input requirements.
 | `ZSH_OLLAMA_COMMANDS_HOTKEY` | `Ctrl-o`                 | Default shortcut key for triggering the plugin |
 | `ZSH_OLLAMA_COMMANDS`        | 5                        | Number of command suggestions displayed        |
 | `ZSH_OLLAMA_URL`             | `http://localhost:11434` | The URL of OLLAMA server host                  |
+| `ZSH_OLLAMA_OS_FLAVOUR`      | `Linux (Fedora 42)`      | OS/Flavour for terminal commands               |
 
 ## Usage
 
@@ -46,11 +47,11 @@ suggestions based on user input requirements.
 3. Input what you want to do then trigger the plugin. Press the custom shortcut (default is Ctrl-o) to start
    the command suggestion process.
 4. Interact with FZF: Type a query or input requirement, and FZF will display
-   suggested MacOS terminal commands. Select one to execute.
+   suggested terminal commands. Select one to execute.
 
 **Get Started**
 
-Experience the power of AI-driven command suggestions in your MacOS terminal! This
+Experience the power of AI-driven command suggestions in your terminal! This
 plugin is perfect for developers, system administrators, and anyone looking to
 streamline their workflow.
 
